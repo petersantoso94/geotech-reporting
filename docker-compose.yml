@@ -8,6 +8,8 @@ services:
     volumes: 
       - ./react-client:/usr/src/app
       - node_modules:/usr/src/app/node_modules
+    env_file:
+      - ./.dev.env
       
 
   server:

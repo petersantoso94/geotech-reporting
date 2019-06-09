@@ -13,7 +13,7 @@ var usersRouter = require('./routes/users');
 
 var app = express();
 
-var mongoDB = 'mongodb://mongo:27017/myDB';
+var mongoDB = 'mongodb://mongo:27017/myDB2';
 mongoose.connect(mongoDB);
 // Get Mongoose to use the global promise library
 mongoose.Promise = require('bluebird');
